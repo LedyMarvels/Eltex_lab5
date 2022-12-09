@@ -1,0 +1,15 @@
+Character Device (chardev) module linux kernel 5.11
+
+Installing the linux headers
+
+You need to install the linux-headers-.. first as shown below. Depending on your distro, use apt-get or yum.
+
+# apt-get install build-essential linux-headers-$(uname -r)
+
+Next, create the following chardev.c module in C programming language
+
+reate Makefile to Compile Kernel Module
+
+The following makefile can be used to compile the above Character Device (chardev) module linux kernel 5.11
+
+Use the make command to compile  netlink communication as shown below.
